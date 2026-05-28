@@ -6,5 +6,5 @@ on:
       - 'fix/**'
 jobs:
   python-ci:
-    uses: ./.github/workflows/0-python-ci.yml
+    uses: ./.github/workflows/python-ci.yml
     secrets: inherit
